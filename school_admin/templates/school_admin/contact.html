@@ -1,0 +1,82 @@
+{% extends 'school_admin/master.html' %}
+{% load static %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="cont_form">
+    <form action="" id="ctus">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Enter your Name"> <br>
+        <input type="email" placeholder="Enter a valid Email address"> <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <button type="button" id="sub">SUBMIT</button>
+    </form>
+</div>
+
+
+
+<!-- 
+<br>
+
+<div class="cont">
+    <div class="row1"> Contact Us </div>
+    <div class="row2">Name</div>
+    <div class="row_2"><input class="txtbox" type="text"> </div>
+    <div class="row3">Gender</div>
+    <div class="row_3">
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+    </div>
+    <div class="row4">Date of Birth</div>
+    <div class="row_4"><input class="txtbox" type="date"></div>
+    <div class="row5">Mobile</div>
+    <div class="row_5"><input class="txtbox" type="text"> </div>
+    <div class="row6">Email</div>
+    <div class="row_6"><input class="txtbox" type="email"></div>
+    <div class="row7">Address</div>
+    <div class="row_7"><textarea  class="txtbox" name="" id="" cols="50" rows="10"></textarea></div>
+    <div class="row8"><button type="button" class="btn">SUBMIT</button>
+     <input class="submit" type="button" value="SUBMIT"> 
+    </div>
+</div>
+<br><br> -->
+<!-- 
+
+<div class="cont">
+
+    <form action="" method="post" name="contactform" id="fm">
+        <label class="xy" for="name"> Name  </label>
+        <input type="text" name="UserName" placeholder="Enter your name" size="50" id="name"> <br /><br>
+        <label  class="xy" for="Password">Password</label>
+        <input type="password" name="Password" value="12345" id="Password"> <br /><br>
+        <label  class="xy" for="email">E-mail</label>
+        <input type="email" name="Email" id="email"> <br /><br>
+        <label  class="xy" for="">Gender </label>
+        <input type="radio" name="Gender" value="male"> male
+        <input type="radio" name="Gender" value="female"> female <br>     
+        
+    </form> <br>
+
+</div>
+<br><br> -->
+<!-- 
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  } 
+
+<h1>The z-index Property</h1>
+
+<img src="w3css.gif" width="100" height="140">
+
+<p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+-->
+
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'students/master_page.html' %}
+{% load static %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/course.css' %}">
+{% endblock %}
+
+{% block content %}
+
+ <div class="exp">
+   <h1> Explore Our Internship programme</h1>
+
+   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae voluptate laborum porro sequi 
+   iusto eius atque blanditiis excepturi veritatis quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   Soluta sed, earum iste quidem laudantium iure a porro saepe cum quaerat reiciendis assumenda, voluptatum perferendis! 
+   Fugiat nesciunt nam alias saepe dicta!
+</div>
+
+<br><br>
+
+<div class="course_logo">
+    <div >  <img src="{% static 'images/pythonlogo.png' %}" alt="of" height="200px" width="280px">
+        <h3>Python Full Stack Development</h3>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus natus facilis omnis nulla molestias,
+             placeat sit expedita quod eaque, deserunt libero rerum magnam, laborum dolores laudantium consectetur minus neque.</p>
+     </div>
+    <div >  <img src="{% static 'images/phplogo.png' %}" alt="of" height="200px" width="280px">
+        <h3>PHP Full Stack Development</h3>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus natus facilis omnis nulla molestias,
+            placeat sit expedita quod eaque, deserunt libero rerum magnam, laborum dolores laudantium consectetur minus neque.</p>
+      </div>
+    <div >  <img src="{% static 'images/angular.png' %}" alt="of" height="200px" width="280px">
+        <h3>Angular - Front End Development</h3> 
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus natus facilis omnis nulla molestias,
+            placeat sit expedita quod eaque, deserunt libero rerum magnam, laborum dolores laudantium consectetur minus neque.</p>
+    </div>
+</div>
+<br><br>
+
+{% endblock %}

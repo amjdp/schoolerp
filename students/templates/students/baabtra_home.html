@@ -1,0 +1,68 @@
+{% extends 'students/master_page.html' %}
+{% load static %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="gallery">
+    <div class="wh_1"></div>
+    <div class="soft">
+        <p id="intsh">SOFTWARE <br> INTERNSHIP</p>
+    </div>
+    <div class="lap"></div>
+    <div class="d4"></div>
+    <div class="course">
+        <p id="crse">
+            PYTHON | PHP | ANGULAR | JAVA <br> <br>
+            <img src="{% static 'images/hd.jpg' %}" alt="ph">
+        </p>
+    </div>
+    <div class="box"></div>
+    <div class="c3"></div>
+    <div class="wh_2"></div>
+    <div class="a1"></div>
+    <div class="b2"></div>
+    <div class="hor_wh"></div>
+    <div class="get_job">
+        <p id="getst"> GETTING A SOFTWARE JOB IS SO EASY WITH OUR <br> INTERNSHIP PROGRAM </p>
+    </div>
+    <div class="wh_box"></div>
+</div>
+
+<div class="off_details">
+    <div class="row">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="off">
+        <h3>Our office </h3>
+        <img src="{% static 'images/office.webp' %}" alt="of" height="200px" width="280px">
+    </div>
+
+    <div class="training">
+        <h3>Best Python Training in Calicut </h3>
+        <p>Python is one of the hot programming languaues nowadays. Many freshers are learning this software
+            development
+            technology and are getting placed as Python Developer in Software Companies. Baabtra has the highest
+            number of
+            candidates got trained in Python in the last year. We train you to develop a web application using
+            Python with
+            Django framework and MySql database. Python training course for freshers to make them good
+            programmers through
+            quality training in Python & Django Framework in Calicut.
+        </p>
+    </div>
+
+    <div class="life">
+        <h3> Life @ baabtra </h3>
+        <video controls src="{% static 'images/file_example_MP4_480_1_5MG.mp4' %}" height="200px" width="250px"></video>
+    </div>
+</div>
+
+{% endblock %}
+
+

@@ -1,0 +1,159 @@
+.cont_form{
+    text-align: center;
+    margin-left: 100px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #4887a3;
+    padding: 20px;
+}
+
+
+  
+  
+#sub {
+    width: 40%;
+    background-color: #4887a3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+#sub:hover {
+    background-color: #87a0a7;
+  }
+  
+
+
+
+/* .cont {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    border: 2px solid black;
+    /* justify-content: center; 
+    /* justify-self: center;
+    width: 1100px;
+    /* text-align: center;     
+    padding: 10px;
+} 
+
+/* @media (min-width: 768px) {
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 0px;
+    }
+} 
+
+.row1 {
+    grid-area: 1/1/2/3;
+    border: 2px solid black;
+    height: 50px;
+    width: 1000px;
+    /* justify-content: center; 
+    /* align-content: center; 
+    text-align: center;
+}
+
+.row2 {
+    grid-area: 2/1/3/2;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_2 {
+    grid-area: 2/2/3/3;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row3 {
+    grid-area: 3/1/4/2;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_3 {
+    grid-area: 3/2/4/3;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row4 {
+    grid-area: 4/1/5/2;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_4 {
+    grid-area: 4/2/5/3;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row5 {
+    grid-area: 5/1/6/2;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_5 {
+    grid-area: 5/2/6/3;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row6 {
+    grid-area: 6/1/7/2;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_6 {
+    grid-area: 6/2/7/3;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row7 {
+    grid-area: 7/1/8/2;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_7 {
+    grid-area: 7/2/8/3;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.row_8 {
+    grid-area: 8/1/9/3;
+    border: 2px solid black;
+    width: 1000px;
+   /* text-align: right; 
+}
+
+.row8 .btn{
+    float: right;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgb(2, 2, 42);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    /* float: right; 
+    
+}
+
+.txtbox{
+    width: 450px;
+} */

@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'school_admin',
     'teachers',
-    'students'
+    'students',
+    'sportsclub'
 ]
 
 MIDDLEWARE = [

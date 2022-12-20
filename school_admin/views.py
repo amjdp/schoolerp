@@ -1,11 +1,17 @@
 from django.shortcuts import render
 
 # Create your views here.
-def teachers(request):
-    return render(request,'school_admin/viewteachers.html')
+def master(request):
+    return render(request, 'school_admin/master.html')
 
-def students(request):
-    return render(request, 'school_admin/viewstudents.html')
+def home(request):
+    return render(request, 'school_admin/home.html')
 
-def log(request):
-    return render(request, 'school_admin/login.html')
+def abt(request):
+    return render(request, 'school_admin/about.html')
+
+def cont(request):
+    return render(request, 'school_admin/contact.html')
+    
+def menu(request):
+    return render(request, 'school_admin/menu.html')

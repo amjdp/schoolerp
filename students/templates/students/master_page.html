@@ -1,0 +1,63 @@
+{% load static %}
+<!-- master pag for this website. All other pages extends this page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baabtra Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% block header %}
+    <!-- Add style tag for individual pages  -->
+    {% endblock %}
+</head>
+
+<body>
+    <div class="container">
+        <!-- header  -->
+        <div class="header_container">
+            <img src="{% static 'images/b_logo.png' %}" alt="b" id="logo">
+            <button id="login" type="button">Login</button>
+            <button id="register" type="button">Register</button>
+        </div>
+        <br><br>
+        <!-- header end  -->
+
+        <!-- Navigation bar  -->
+
+
+        <div class="navbar">
+            <div class="header">
+                <ul class="menu">
+                    <li><a href="{% url 'q4' %}">Home</a></li>
+                    <li> <a href="{% url 'q5' %}">Courses</a></li>
+                    <li><a href="{% url 'q6' %}">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Navigation bar  -->
+
+        {% block content %}
+        <!-- Contents of other pages are added here...  -->
+        {% endblock %}
+
+        <!-- footer  -->
+        <div class="footer_container">
+            <div class="ment">baabtra <br> Mentoring Partner </div>
+            <div class="mail">
+                <b>Email : </b> info@baabtra.com <br>
+                <b>Phone : </b> +91 8592058444
+            </div>
+            <div class="address">
+                <b>Address : </b> <br>
+                5<sup>th</sup> Floor, CaFIT Square, <br> Hi lite Business Park, Kozhikode
+            </div>
+        </div>
+        <!-- footer end  -->
+
+    </div>
+</body>
+
+</html>

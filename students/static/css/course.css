@@ -1,0 +1,27 @@
+.exp {
+    background-color: rgb(4, 32, 71);
+    height: 140px;
+    /* border-radius: 20px 20px; */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.course_logo {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+.description {
+    width: 300px;
+    text-align: center;
+    font: 1em sans-serif;
+}

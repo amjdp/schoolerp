@@ -10,3 +10,15 @@ def mark1(request):
 def att1(request):
     return render(request, 'students/viewattendance.html')
 
+def hm(request):
+    return render(request, 'students/baabtra_home.html')
+
+def cou(request):
+    return render(request, 'students/baabtra_courses.html')
+
+def cont(request):
+    return render(request, 'students/baabtra_contact_us.html')
+
+def master(request):
+    return render(request, 'students/master_page.html')
+
